@@ -1,14 +1,10 @@
 import React from 'react';
 
-const products = [
-    { id: 1, name: 'Product 1', price: '$10' },
-    { id: 2, name: 'Product 2', price: '$20' },
-    { id: 3, name: 'Product 3', price: '$30' }
-];
-
-function ProductList() {
+function ProductList({products}) {
     return (
-        <div>
+        // write your code inside the <div> </div>
+        // Should contain all the products
+        <div data-testid="product-list">
             <h2>Product List</h2>
             <ul>
                 {products.map((product) => (

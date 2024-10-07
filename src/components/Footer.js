@@ -5,9 +5,13 @@ let onlyYear = date.getFullYear();
 
 function Footer() {
     return (
-        <footer>
-            <p>&copy; {onlyYear} E-Commerce Site</p>
-        </footer>
+        // write your code inside the <div> </div>
+        // Should contain the text © <CURRENT-YEAR> E-Commerce Site
+        <div data-testid="footer">
+            <footer>
+                <p>&copy; {onlyYear} E-Commerce Site</p>
+            </footer>
+        </div>
     );
 }
 
